@@ -2,7 +2,11 @@
 
 namespace App\Providers;
 
+use App\Services\BubbleSort;
+use App\Services\BubbleSortInterface;
 use Illuminate\Support\ServiceProvider;
+use Psr\Log\LoggerInterface;
+use Symfony\Component\HttpKernel\Log\Logger;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +17,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind(LoggerInterface::class, Logger::class);
+        $this->app->bind(BubbleSortInterface::class, BubbleSort::class);
     }
 
     /**
