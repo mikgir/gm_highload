@@ -114,6 +114,8 @@
       <excludeFolder url="file://$MODULE_DIR$/gm_highload/vendor/dragonmantank/cron-expression" />
       <excludeFolder url="file://$MODULE_DIR$/gm_highload/vendor/tijsverkoyen/css-to-inline-styles" />
       <excludeFolder url="file://$MODULE_DIR$/gm_highload/vendor/nunomaduro/termwind" />
+      <excludeFolder url="file://$MODULE_DIR$/gm_highload/vendor/symfony/uid" />
+      <excludeFolder url="file://$MODULE_DIR$/gm_highload/vendor/symfony/polyfill-uuid" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
